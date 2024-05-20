@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #e5e5e5;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+.page {
+    width: 736px;
+    margin: auto;
+}
+
+header {
+    width: 319px;
+    margin-top: 74px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+header p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form {
+    background: #fafafc;
+    min-height: 300px;
+    margin-top: 38px;
+    border-radius: 8px 8px 0 0;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-legend {
+    color: #535971;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Staatliches';
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6c6a71;
+}
+
+.input-wrapper input {
+    background: #fafafc;
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6a71;
+}
+
+.date-time-title {
+    font-weight: 400;
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 24px; /* Reduzi a altura da linha */
+    color: #535971;
+}
+
+.date-time-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.horizontal-fields {
+    display: flex;
+    gap: 20px;
+}
+
+.horizontal-fields .input-wrapper {
+    flex: 1;
+}
+
+footer {
+    background: #535971;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    margin-bottom: 100px; 
+    border-top: 1px solid #d6d6d6;
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button {
+    background: #FF5374;
+    border: 0;
+    border-radius: 20px;
+    height: 50px;
+    font-weight: 400;
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+footer .button:hover {
+    background: #a72269;
+}
